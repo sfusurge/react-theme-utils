@@ -1,0 +1,10 @@
+/**
+ * Applies only for the given layout.
+ * @param $theme The theme name. ("dark", "light")
+ */
+ @mixin for-theme($theme) {
+	&[data-theme="#{$theme}"],
+	[data-theme="#{$theme}"] & {
+		@content;
+	}
+}

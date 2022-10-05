@@ -1,0 +1,17 @@
+{
+	"javascript.format.semicolons": "insert",
+	"javascript.preferences.quoteStyle": "double",
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+	"typescript.format.semicolons": "insert",
+	"typescript.preferences.quoteStyle": "double",
+
+	"files.exclude": {
+		".idea/**": true,
+		".dependencies.sha256": true,
+
+		"build/**": true,
+		"node_modules/**": true,
+
+		"package-lock.json": true
+	}
+}

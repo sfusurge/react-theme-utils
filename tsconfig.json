@@ -1,0 +1,16 @@
+{
+	"extends": "@sfusurge/typescript-config",
+	"compilerOptions": {
+		// Export as ES6.
+		"target": "ES6",
+
+		// We're building a reusable package.
+		// We want to emit files to the "build" directory.
+		"noEmit": false,
+		"declaration": true,
+		"declarationDir": "build",
+		"outDir": "build"
+	},
+	"include": ["src"],
+	"exclude": ["build", "**/*.test.tsx", "*.d.ts", "*.js"]
+}
